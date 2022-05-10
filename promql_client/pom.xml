@@ -27,4 +27,14 @@
 			<version>2.8.1</version>
 		</dependency>
 	</dependencies>
+	<distributionManagement>
+		<snapshotRepository>
+			<id>nexus-snapshots</id>
+			<url>https://sonatype-nexus-devops.coruscant.opsnow.com/repository/maven-snapshots/</url>
+		</snapshotRepository>
+		<repository>
+			<id>nexus-releases</id>
+			<url>https://sonatype-nexus-devops.coruscant.opsnow.com/repository/maven-releases/</url>
+		</repository>
+	</distributionManagement>
 </project>
